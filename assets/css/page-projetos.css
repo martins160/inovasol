@@ -1,0 +1,79 @@
+.header-bg-projetos{
+	height: 170px;
+	width: 100%;
+	background-image: url(../images/backgrounds/bg03.jpg);	
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.page-projetos-content{
+	width: 100%;
+	padding: 0 0 50px 0;
+	background: #fff;
+}
+
+.page-projetos-titu{
+	background-color: #f4f4f4;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+
+.p087{
+	font-size: 1em;
+	color: #5f5f5f;
+	font-weight: 300;
+	text-align: justify;
+	margin: 0 0 30px 0;
+}
+
+
+/**************************************************************************************************************************/
+@media screen and (min-width: 720px) {
+
+.header-bg-projetos{
+	height: 170px;
+	width: 100%;
+	background-image: url(../images/backgrounds/bg03.jpg);	
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.page-projetos-content{
+	width: 100%;
+	padding: 0 0 50px 0;
+	background: #fff;
+}
+
+.page-projetos-titu{
+	background-color: #f4f4f4;
+	width: 100%;
+	text-align: center;
+	padding: 40px 0;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 3em;
+	font-weight: 700;
+	margin: 0 0 50px 0;
+}
+
+.p087{
+	font-size: 1.2em;
+	color: #5f5f5f;
+	font-weight: 300;
+	text-align: justify;
+	margin: 0 0 30px 0;
+}
+
+}

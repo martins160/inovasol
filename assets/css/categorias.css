@@ -1,0 +1,136 @@
+.page-category{
+	width: 100%;
+	padding: 0 0 50px 0;
+	background: #fff;
+}
+
+.page-category-titu{
+	background-color: #f4f4f4;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+
+.categoty-flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cat-bloc{
+	width: 100%;
+	text-align: left;
+	padding: 7px;
+	margin: 0 0 20px 0;
+
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;	
+}
+
+.cat-bloc:hover{
+	background-color: rgba(0,0,0,.1);
+
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;		
+}
+
+.cat-bloc a{
+	text-decoration: none;
+	color: #222;
+}
+
+.cat-bloc a img{
+	margin: 0 0 10px 0;
+}
+
+
+
+
+
+
+
+
+/**************************************************************************************************************************/
+@media screen and (min-width: 720px) {
+
+.page-category{
+	width: 100%;
+	padding: 0 0 50px 0;
+	background: #fff;
+}
+
+.page-category-titu{
+	background-color: #f4f4f4;
+	width: 100%;
+	text-align: center;
+	padding: 40px 0;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 3em;
+	font-weight: 700;
+	margin: 0 0 50px 0;
+}
+
+.categoty-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.cat-bloc{
+	width: 22%;
+	text-align: left;
+	padding: 7px;
+	margin: 0 0 20px 0;
+
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;	
+}
+
+.cat-bloc:hover{
+	background-color: rgba(0,0,0,.1);
+
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-ms-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;		
+}
+
+.cat-bloc a{
+	text-decoration: none;
+	color: #222;
+}
+
+.cat-bloc a img{
+	margin: 0 0 10px 0;
+}
+
+
+
+
+
+
+}

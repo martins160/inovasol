@@ -1,0 +1,321 @@
+.footer{
+	background-image: url("../../assets/images/backgrounds/bg04.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px 0;
+}
+
+.footer-titu{
+	font-size: 2em;
+	display: block;
+	color: #fff;
+	font-weight: 700;
+	margin: 0 0 5px 0;
+}
+
+.footer-blocos{
+	width: 260px;
+	max-width: 260px;
+	margin: 0 0 40px 0;
+}
+
+.footer-icon{
+	width: 200px;
+	margin: auto;
+	background: #3c5ea8;
+	height: 10px;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;	
+}
+
+.footer-blocos-linha{
+	display: block;
+}
+
+.footer-blocos-linha .fa-home, .footer-blocos-linha .fa-mobile, .footer-blocos-linha .fa-question-circle{
+	color: #3c5ea8;
+	font-size: 4.2em;
+	text-align: center;
+}
+
+.footer-blocos-end, .footer-blocos-tel{
+	font-size: 3em;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+
+.footer-blocos-r{
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+}
+
+.footer-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 40px 0 0 0;
+}
+
+.fbt{
+	font-size: 1.9em;
+}
+
+.footer-blocos-questions{
+	padding: 13px;
+	background: #fff;
+	font-size: 1.5em;
+	color: #3c5ea8;
+	margin: 40px 0 0 0;
+
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 	
+}
+
+.footer-blocos-questions:hover{
+	background: #3c5ea8;
+	color: #fff;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 	
+}
+
+.footer-blocos a:hover{
+	text-decoration: none;
+}
+
+.footer-flex-rod{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 20px 0 0 0;
+}
+
+.footer-blocos-rod{
+	width: 280px;
+	max-width: 280px;
+}
+
+.footer-blocos-siga{
+	font-size: 2em;
+	color: #fff;
+	font-weight: 700;
+}
+
+.footer-blocos-social{
+	font-size: 1em;
+	font-weight: 300;
+	color: #fff;
+}
+
+.footer-blocos-icon a .fa-facebook{
+	font-size: 3em;
+	color: #fff !important;
+	margin: 25px 0;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 		
+}
+
+.footer-blocos-linha a .fa-facebook:hover{
+	text-decoration: none;
+	color: #3c5ea8 !important;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 		
+}
+
+.footer-blocos-linha img{
+	width: 60%;
+}
+
+/**************************************************************************************************************************/
+@media screen and (min-width: 720px) {
+
+.footer{
+	background-image: url("../../assets/images/backgrounds/bg04.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 40px 0;
+}
+
+.footer-titu{
+	font-size: 3em;
+	display: block;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+}
+
+.footer-blocos{
+	width: 260px;
+	max-width: 260px;
+	margin: 0;
+}
+
+.footer-icon{
+	width: 200px;
+	margin: auto;
+	background: #3c5ea8;
+	height: 10px;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;	
+}
+
+.footer-blocos-linha{
+	display: block;
+}
+
+.footer-blocos-linha .fa-home, .footer-blocos-linha .fa-mobile, .footer-blocos-linha .fa-question-circle{
+	color: #3c5ea8;
+	font-size: 4.2em;
+	text-align: center;
+}
+
+.footer-blocos-end, .footer-blocos-tel{
+	font-size: 3em;
+	color: #fff;
+	font-weight: 700;
+	text-align: left;
+}
+
+.footer-blocos-r{
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: 300;
+	text-align: left;
+}
+
+.footer-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	margin: 70px 0 0 0;
+}
+
+.fbt{
+	font-size: 1.9em;
+}
+
+.footer-blocos-questions{
+	padding: 13px;
+	background: #fff;
+	font-size: 1.5em;
+	color: #3c5ea8;
+	margin: 40px 0 0 0;
+
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 	
+}
+
+.footer-blocos-questions:hover{
+	background: #3c5ea8;
+	color: #fff;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 	
+}
+
+.footer-blocos a:hover{
+	text-decoration: none;
+}
+
+.footer-flex-rod{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 70px 0 0 0;
+}
+
+.footer-blocos-rod{
+	width: 450px;
+	max-width: 450px;
+}
+
+.footer-blocos-siga{
+	font-size: 3em;
+	color: #fff;
+	font-weight: 700;
+}
+
+.footer-blocos-social{
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #fff;
+}
+
+.footer-blocos-icon a .fa-facebook{
+	font-size: 3em;
+	color: #fff !important;
+	margin: 25px 0;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 		
+}
+
+.footer-blocos-linha a .fa-facebook:hover{
+	text-decoration: none;
+	color: #3c5ea8 !important;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 		
+}
+
+.footer-blocos-linha img{
+	width: 60%;
+}
+
+}

@@ -1,0 +1,664 @@
+.content-txt{
+	display: block;
+	margin: 180px 0 0 0;
+}
+
+.content-txt-bloc{
+	color: #444;
+	font-size: 1.5em;
+	margin: 0 auto;
+	font-weight: 700;
+	width: 90%;
+}
+
+.content-pp{
+	padding: 10px;
+	background: #f49708;
+	color: #fff;
+}
+
+.content-func{
+	padding: 10px 10% 50px 10%;
+	background: #fff;
+	margin: 0;
+}
+
+.func-titu{
+	font-size: 2em;
+	display: block;
+	color: #f49708;
+	font-weight: 700;
+	margin: 20px 0 0 0;
+}
+
+.func-sub-titu{
+	font-size: 1.3em;
+	color: #2b303b;
+	font-weight: 300;
+	max-width: 550px;
+	display: block;
+	margin: auto;
+}
+
+
+
+.content-ilustra-01{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+
+	display: none;
+}
+
+.content-ilustra-01 img{
+	margin: 22% auto 0 auto;
+	width: 50%;
+}
+
+
+
+
+.beneficios{
+	width: 100%;
+	border-top: 10px solid #3c5ea8;
+	padding: 20px 0;
+}
+
+.beneficios-tit{
+	font-size: 1.6em;
+	color: #f49708;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.beneficios-icon{
+	width: 100px;
+	margin: auto;
+	background: #3c5ea8;
+	height: 5px;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;
+}
+
+.beneficios-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.beneficio-bloc{
+	max-width: 260px;
+	margin: 8% 0 0 0;
+}
+
+.beneficio-bloc i{
+	color: #3c5ea8;
+	display: block;
+	font-size: 4em;
+
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.beneficio-bloc:hover i{
+	margin: -5% 0 0 0;
+
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;		
+}
+
+.beneficio-bloc-titu{
+	display: block;
+	text-transform: uppercase;
+	color: #f49708;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.beneficio-bloc-txt{
+	color: #514a4a;
+	font-size: 1.4em;
+	font-weight: 300;
+}
+
+
+
+
+
+.projetos{
+	background: #3c5ea8;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.projetos-tit{
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.projetos-sol{
+	color: #f49708;
+}
+
+.projetos-icon{
+	width: 100px;
+	margin: auto;
+	background: #f49708;
+	height: 5px;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;	
+}
+
+.projetos-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 10% 0 0 0;
+}
+
+.projetos-bloc{
+	max-width: 250px;
+	width: 250px;
+	margin: 0 0 5% 0;
+}
+
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.projetos-container {
+  position: relative;
+  width: 289px;
+  max-width: 100%;
+  max-height: 256px;
+  overflow: hidden;
+}
+
+/* Make the image to responsive */
+.projetos-container img {
+  width: 100%;
+  height: auto;
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;  
+}
+
+.projetos-container:hover img{
+	-webkit-transform: scale(1.1) rotate(1deg);
+	-ms-transform: scale(1.1) rotate(1deg);
+	transform: scale(1.1) rotate(1deg);		
+}
+
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: rgba(244,151,8,1);
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;  
+}
+
+
+/* When you mouse over the container, fade in the overlay icon*/
+.projetos-container:hover .overlay {
+  opacity: .8;
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+  color: #fff;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projetos-potencia{
+	display: block;
+	text-align: left;
+	font-weight: 700;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.projetos-tipo, .projetos-local{
+	display: block;
+	text-align: left;
+	font-weight: 300;
+	color: #fff;
+	font-size: 1em;	
+}
+
+.projetos-tipo strong, .projetos-local strong{
+	font-weight: 700;
+}
+
+.btn-veja-mais{
+	width: 180px;
+	margin: 1% auto 0 auto;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px;
+	background: #f49708;
+	border-radius: 5px 5px 5px 5px;
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;		
+}
+
+.btn-veja-mais:hover{
+	color: #f49708;
+	text-decoration: none;
+	background: #fff;
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;		
+}
+
+
+
+
+.formulario-simulacao form input, .formulario-simulacao form select, .formulario-simulacao form textarea{
+	border: 1px solid #d25200;
+    border-radius: 0;
+    background: none;
+    color: #d25200;
+}
+
+
+
+
+
+
+/**************************************************************************************************************************/
+@media screen and (min-width: 720px) {
+
+
+.content-txt{
+	display: none;
+}
+
+.content-func{
+	padding: 70px 10%;
+	background: #fff;
+	margin: 2% 0 0 0;	
+}
+
+.func-titu{
+	font-size: 3em;
+	display: block;
+	color: #f49708;
+	font-weight: 700;
+	margin: 0;
+}
+
+.func-sub-titu{
+	font-size: 1.5em;
+	color: #2b303b;
+	font-weight: 300;
+	max-width: 550px;
+	display: block;
+	margin: auto;
+}
+
+
+.content-ilustra-01{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+
+	display: block;
+}
+
+.content-ilustra-01 img{
+	margin: 22% auto 0 auto;
+}
+
+
+
+
+
+
+.beneficios{
+	width: 100%;
+	border-top: 40px solid #3c5ea8;
+	padding: 60px 0;
+}
+
+.beneficios-tit{
+	font-size: 3em;
+	color: #f49708;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.beneficios-icon{
+	width: 200px;
+	margin: auto;
+	background: #3c5ea8;
+	height: 10px;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;
+}
+
+.beneficios-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+
+.beneficio-bloc{
+	max-width: 260px;
+	margin: 8% 0 0 0;
+	cursor: pointer;	
+}
+
+.beneficio-bloc:hover i{
+	margin: -5% 0 0 0;
+
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;		
+}
+
+.beneficio-bloc i{
+	color: #3c5ea8;
+	display: block;
+	font-size: 6em;
+
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;	
+}
+
+.beneficio-bloc-titu{
+	display: block;
+	text-transform: uppercase;
+	color: #f49708;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.beneficio-bloc-txt{
+	color: #514a4a;
+	font-size: 1.4em;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+.projetos{
+	background: #3c5ea8;
+	width: 100%;
+	padding: 50px 0;
+}
+
+.projetos-tit{
+	color: #fff;
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.projetos-sol{
+	color: #f49708;
+}
+
+.projetos-icon{
+	width: 200px;
+	margin: auto;
+	background: #f49708;
+	height: 10px;
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;	
+}
+
+.projetos-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	margin: 6% 0 0 0;
+}
+
+.projetos-bloc{
+	max-width: 290px;
+	width: 290px;
+	margin: 0 0 5% 0;
+}
+
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.projetos-container {
+  position: relative;
+  width: 290px;
+  max-width: 100%;
+  max-height: 256px;
+  overflow: hidden;
+}
+
+/* Make the image to responsive */
+.projetos-container img {
+  width: 100%;
+  height: auto;
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;  
+}
+
+.projetos-container:hover img{
+	-webkit-transform: scale(1.1) rotate(1deg);
+	-ms-transform: scale(1.1) rotate(1deg);
+	transform: scale(1.1) rotate(1deg);		
+}
+
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: rgba(244,151,8,1);
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;  
+}
+
+
+/* When you mouse over the container, fade in the overlay icon*/
+.projetos-container:hover .overlay {
+  opacity: .8;
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+  color: #fff;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+/*
+.projetos-img{
+	max-width: 100%;
+	max-height: 256px;
+	overflow: hidden;
+	position: relative;
+}
+
+.projetos-img img{
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.projetos-img:hover img{
+	-moz-transform: scale(1.1) rotate(1deg);
+	-webkit-transform: scale(1.1) rotate(1deg);
+	-o-transform: scale(1.1) rotate(1deg);
+	-ms-transform: scale(1.1) rotate(1deg);
+	transform: scale(1.1) rotate(1deg);		
+}
+
+.projetos-img-mask{
+	background: rgba(244,151,8,0);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	cursor: pointer;
+
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;	
+}
+
+.projetos-img-mask:hover{
+	background: rgba(244,151,8,.6);
+	content: "fa fa-search";
+
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;	
+}
+
+.projetos-img a{
+	position: absolute;
+	z-index: 3;
+}*/
+
+.projetos-potencia{
+	display: block;
+	text-align: left;
+	font-weight: 700;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.projetos-tipo, .projetos-local{
+	display: block;
+	text-align: left;
+	font-weight: 300;
+	color: #fff;
+	font-size: 1em;	
+}
+
+.projetos-tipo strong, .projetos-local strong{
+	font-weight: 700;
+}
+
+.btn-veja-mais{
+	width: 180px;
+	margin: 1% auto 0 auto;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 0px;
+	background: #f49708;
+	border-radius: 5px 5px 5px 5px;
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;		
+}
+
+.btn-veja-mais:hover{
+	color: #f49708;
+	text-decoration: none;
+	background: #fff;
+
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;		
+}
+
+
+
+
+
+
+}
